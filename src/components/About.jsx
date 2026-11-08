@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Buttn from './Buttn';
+import beauty5 from '../assets/beauty5.jpg';
 
 function About() {
   return (
@@ -27,7 +28,7 @@ function About() {
           <Col md={6} className='order-1 mt-5 mt-md-0'>
           <h2 className='mb-5 About_title d-md-none d-block'>About Aura Beauty</h2>
             <img
-              src="/src/assets/beauty5.jpg" alt="Aura Beauty" className="img-fluid card p-2"
+              src={beauty5} alt="Aura Beauty" className="img-fluid card p-2"
             />
           </Col>
 
