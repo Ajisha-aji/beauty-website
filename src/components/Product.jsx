@@ -4,47 +4,44 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/esm/Col';
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
-const Data=[
-    {
-        image:'/src/assets/beauty3.jpg',
-        title:'Lipstick',
-        text:' Some quick example text to build on the card title and make up the bulk of the card content.',
-
-    },
-     {
-        image:'/src/assets/beauty44.avif',
-        title:'The Ordinary Glycolic Acid',
-        text:' Some quick example text to build on the card title and make up the bulk of the card content.',
- 
-    },
-    {
-        image:'/src/assets/beauty11.avif',
-        title:'Dot & Key Moisturizer',
-        text:' Some quick example text to build on the card title and make up the bulk of the card content.',
- 
-    },
-    {
-        image:'/src/assets/beauty55.avif',
-        title:'The Ordinary Glycolic Acid',
-        text:' Some quick example text to build on the card title and make up the bulk of the card content.',
- 
-    }
-    ,
-    
-     {
-        image:'/src/assets/beauty33.avif',
-        title:'Neutrogena Moisturizer',
-        text:' Some quick example text to build on the card title and make up the bulk of the card content.',
- 
-    },
-    {
-         image:'/src/assets/beauty22.jpg',
-        title:' Cetaphil Skin Cleanser',
-        text:' Some quick example text to build on the card title and make up the bulk of the card content.',
- 
-       
-    }
-]
+import beauty3 from '../assets/beauty3.jpg';
+import beauty44 from '../assets/beauty44.avif';
+import beauty11 from '../assets/beauty11.avif';
+import beauty55 from '../assets/beauty55.avif';
+import beauty33 from '../assets/beauty33.avif';
+import beauty22 from '../assets/beauty22.jpg';
+const  Data = [
+  {
+    image: beauty3,
+    title: 'Lipstick',
+    text: 'Some quick example text to build on the card title.'
+  },
+  {
+    image: beauty44,
+    title: 'The Ordinary Glycolic Acid',
+    text: 'Some quick example text to build on the card title.'
+  },
+  {
+    image: beauty11,
+    title: 'Dot & Key Moisturizer',
+    text: 'Some quick example text to build on the card title.'
+  },
+  {
+    image: beauty55,
+    title: 'The Ordinary Glycolic Acid',
+    text: 'Some quick example text to build on the card title.'
+  },
+  {
+    image: beauty33,
+    title: 'Neutrogena Moisturizer',
+    text: 'Some quick example text to build on the card title.'
+  },
+  {
+    image: beauty22,
+    title: 'Cetaphil Skin Cleanser',
+    text: 'Some quick example text to build on the card title.'
+  }
+];
 
 function Product() {
   return (
